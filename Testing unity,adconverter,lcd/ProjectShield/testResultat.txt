@@ -1,0 +1,30 @@
+st_delayCountsProperly:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+../test/test_lcdFunctions.c:20:test_initialisatinOfTheLCD:PASS
+../test/test_lcdFunctions.c:22:test_writingCharactersToTheLCD:PASS
+../test/test_lcdFunctions.c:23:test_clearingTheLCDDisplay:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+../test/test_adcFunctions.c:30:test_ADConverterInitialisesProperly:PASS
+../test/test_adcFunctions.c:27:test_ADConverterReadsValueWithNoButtonPressed:FAIL: Values Not Within Delta 400 Expected 3800 Was 2079
+
+-----------------------
+2 Tests 1 Failures 0 Ignored 
+FAIL
+../test/test_buttons.c:40:test_noButtonIsPressed:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+../test/test_lcdApplication.c:50:test_writing4DigitNumberOnTheLCDDisplay:PASS
+../test/test_lcdApplication.c:52:test_writingAsciiStringOnTheLCDDisplay:PASS
+../test/test_lcdApplication.c:54:test_writingButtonOnTheLCDDisplay:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK

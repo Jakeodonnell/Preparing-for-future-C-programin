@@ -1,0 +1,15 @@
+Console ready
+=============
+../test/testDigitalIO.c:10:test_digitalDuePin13InitialiseProperly:PASS
+../test/testDigitalIO.c:15:test_digitalDuePin13IsSet:PASS
+../test/testDigitalIO.c:18:test_digitalDuePin13IsCleared:PASS
+../test/testDigitalIO.c:20:test_digitalDuePin22InitialiseProperly:PASS
+../test/testDigitalIO.c:25:test_digitalDuePin22IsSet:PASS
+../test/testDigitalIO.c:28:test_digitalDuePin22IsCleared:PASS
+../test/testDigitalIO.c:30:test_digitalDuePin13And22InitialiseProperly:PASS
+../test/testDigitalIO.c:35:test_digitalDuePin13And22IsSet:PASS
+../test/testDigitalIO.c:38:test_digitalDuePin13isClearedAnd22IsSet:PASS
+
+-----------------------
+9 Tests 0 Failures 0 Ignored 
+OK
